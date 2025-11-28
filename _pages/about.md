@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>The University of Sydney</a>  \n
+subtitle: <a href='#'>The University of Sydney</a>
+
           <a>📫chuancheng1101@gmail.com</a>
 
 profile:
