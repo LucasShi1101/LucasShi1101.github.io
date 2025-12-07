@@ -11,9 +11,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>These two cats are my pets in Australia.</p>
-    <P>The one on the left is called Nemo.</P>
-    <P>The one on the right is called Oreo.</P>
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
