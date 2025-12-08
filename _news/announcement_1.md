@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🔥 Oral presentation received at AAAI 2026 conference.
+🔥 **Oral** presentation received at AAAI 2026 conference.
