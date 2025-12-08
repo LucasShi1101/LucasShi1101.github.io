@@ -28,7 +28,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-互联网-创新创业大赛-市级银奖",
+            },},{id: "news-全国大学生电子设计竞赛-市级三等奖",
+          title: '🏆 全国大学生电子设计竞赛  市级三等奖',
+          description: "",
+          section: "News",},{id: "news-互联网-创新创业大赛-市级银奖",
           title: '🏆 “互联网+”创新创业大赛 市级银奖',
           description: "",
           section: "News",},{id: "news-全国大学生智能汽车竞赛-国家二等奖",
