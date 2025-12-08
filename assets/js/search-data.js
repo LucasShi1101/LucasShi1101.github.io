@@ -28,7 +28,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-全国大学生智能汽车竞赛-国家二等奖",
+            },},{id: "news-互联网-创新创业大赛-市级银奖",
+          title: '🏆 “互联网+”创新创业大赛 市级银奖',
+          description: "",
+          section: "News",},{id: "news-全国大学生智能汽车竞赛-国家二等奖",
           title: '🏆 全国大学生智能汽车竞赛 国家二等奖',
           description: "",
           section: "News",},{id: "news-i-successfully-progressed-to-the-mphil-program-at-the-university-of-sydney-where-i-studied-under-zhiyong-wang",
