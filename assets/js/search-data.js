@@ -28,7 +28,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-successfully-progressed-to-the-mphil-program-at-the-university-of-sydney-where-i-studied-under-zhiyong-wang",
+            },},{id: "news-全国大学生智能汽车竞赛-国家二等奖",
+          title: '🏆 全国大学生智能汽车竞赛 国家二等奖',
+          description: "",
+          section: "News",},{id: "news-i-successfully-progressed-to-the-mphil-program-at-the-university-of-sydney-where-i-studied-under-zhiyong-wang",
           title: '🧑‍🎓 I successfully progressed to the MPhil program at the University of Sydney,...',
           description: "",
           section: "News",},{id: "news-oral-presentation-received-at-aaai-2026-conference",
