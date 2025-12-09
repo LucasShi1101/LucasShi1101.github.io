@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🧑‍🎓 I successfully progressed to the MPhil, where I studied under Zhiyong Wang.
+🧑‍🎓 I successfully progressed to the **MPhil**, where I studied under **Zhiyong Wang**.
