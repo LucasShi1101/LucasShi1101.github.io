@@ -79,8 +79,8 @@ ninja.data = [{
           section: "News",},{id: "news-the-3rd-miga-ijcai-challenge-track-3-champion",
           title: '🏅 The 3rd MiGA-IJCAI Challenge Track 3  Champion',
           description: "",
-          section: "News",},{id: "news-oral-presentation-received-at-aaai-2026-conference",
-          title: '🔥 Oral presentation received at AAAI 2026 conference.',
+          section: "News",},{id: "news-one-papers-were-accepted-by-aaai-2026-oral",
+          title: '🎉 One papers were accepted by AAAI 2026 Oral.',
           description: "",
           section: "News",},{
       id: 'light-theme',
