@@ -7,7 +7,6 @@ nav: true
 nav_order: 4
 ---
 
-# My Collaborators
 
 ## Research Fellow
 
