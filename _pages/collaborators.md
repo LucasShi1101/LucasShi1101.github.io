@@ -15,7 +15,7 @@ nav_order: 4
 
   Publication: AAAI x 1 (Oral)
 
-  Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review), ICME (under review)
+  Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review), IJCAI (under review), ICME (under review)
 
 
 
