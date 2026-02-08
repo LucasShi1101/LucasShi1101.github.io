@@ -7,14 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-<!-- _pages/publications.md -->
+# My Collaborators
 
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
-<div class="collaborators">
-
-{% bibliography %}
 
 </div>
