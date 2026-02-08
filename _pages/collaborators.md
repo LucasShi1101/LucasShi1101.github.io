@@ -14,9 +14,9 @@ nav_order: 4
 
 - **Fei Shen** (Research Fellow, NExT++ Center, National University of Singapore), working on AIGC, LLM, MLLM
 
-Publication: AAAI x 1 (Oral)
+  Publication: AAAI x 1 (Oral)
 
-Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review), ICME (under review)
+  Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review), ICME (under review)
 
 
 
@@ -25,9 +25,9 @@ Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review),
 
 - **Wenhua Wu** (Ph.D., The University of Sydney), working on Medical Imaging and Remote Sensing
 
-Publication: 
+  Publication: 
 
-Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review), ICME (under review)
+  Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review), ICME (under review)
 
 
 
@@ -36,24 +36,23 @@ Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review),
 
 - **Shangze Li** (Master, Nanjing University of Science and Technology), working on LLMs, MLLMs
 
-Publication: 
+  Publication: 
 
-Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review)
+  Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review)
 
 
 
 - **Jingtong Dou** (Master, The University of Sydney), working on Sign Language
 
-Publication:
+  Publication:
 
-Submissions: CVPR (under review), ICML (under review), ICME (under review)
+  Submissions: CVPR (under review), ICML (under review), ICME (under review)
 
 
 
 - **Shiming Guo** (Master, The University of Sydney), working on Medical Imaging
 
-Publication: AAAI x 1 (Oral)
+  Publication: AAAI x 1 (Oral)
 
-Submissions: CVPR (under review), ICML (under review)
+  Submissions: CVPR (under review), ICML (under review)
 
-</div>
