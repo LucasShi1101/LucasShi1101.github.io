@@ -55,3 +55,10 @@ nav_order: 4
 
   Submissions: CVPR (under review), ICML (under review)
 
+
+- **Simiao Xie** (Master, The University of Sydney), working on Medical Imaging and MLLM
+
+  Publication: 
+
+  Submissions: CVPR (under review)
+
