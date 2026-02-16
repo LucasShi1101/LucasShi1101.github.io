@@ -8,57 +8,103 @@ nav_order: 4
 ---
 
 
-## Research Fellow
-
-
-- **Fei Shen** (Research Fellow, NExT++ Center, National University of Singapore), working on AIGC, LLM, MLLM
-
-  Publication: AAAI x 1 (Oral)
-
-  Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review), IJCAI (under review), ICME (under review)
+👥 Research Team
+🎓 Research Fellow
+<div class="row">
+<div class="col-sm-12">
+<i class="fas fa-user-tie"></i> <a href="链接">Fei Shen</a> 
 
 
 
-## Ph.D. Students
-
-
-- **Wenhua Wu** (Ph.D., The University of Sydney), working on Medical Imaging and Remote Sensing
-
-  Publication: 
-
-  Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review), ICME (under review)
+<small>Research Fellow @ NExT++ Center, National University of Singapore</small> 
 
 
 
-## Master Students
+<span class="badge badge-primary">AIGC</span> <span class="badge badge-secondary">LLM</span> <span class="badge badge-info">MLLM</span>
+<ul>
+<li>🏆 Publication: AAAI (Oral)</li>
+<li>📝 Submissions: TPAMI, CVPR, ICML (x2), IJCAI, ICME</li>
+</ul>
+</div>
+</div>
 
-
-- **Shangze Li** (Master, Nanjing University of Science and Technology), working on LLMs, MLLMs
-
-  Publication: 
-
-  Submissions: TPAMI (under review), CVPR (under review), ICML x 2 (under review)
-
-
-
-- **Jingtong Dou** (Master, The University of Sydney), working on Sign Language
-
-  Publication:
-
-  Submissions: CVPR (under review), ICML (under review), ICME (under review)
+🗳️ Ph.D. Students
+<div class="row">
+<div class="col-sm-12">
+<i class="fas fa-user-graduate"></i> <a href="链接">Wenhua Wu</a> 
 
 
 
-- **Shiming Guo** (Master, The University of Sydney), working on Medical Imaging
-
-  Publication: AAAI x 1 (Oral)
-
-  Submissions: CVPR (under review), ICML (under review)
+<small>Ph.D. Candidate @ The University of Sydney</small> 
 
 
-- **Simiao Xie** (Master, The University of Sydney), working on Medical Imaging and MLLM
 
-  Publication: 
+<span class="badge badge-success">Medical Imaging</span> <span class="badge badge-warning">Remote Sensing</span>
+<ul>
+<li>📝 Submissions: TPAMI, CVPR, ICML (x2), ICME</li>
+</ul>
+</div>
+</div>
 
-  Submissions: CVPR (under review)
+🧑‍🎓 Master Students
+<div class="row">
+<div class="col-sm-6">
+<div class="card p-3 mb-3" style="border-left: 5px solid #007bff;">
+<i class="fas fa-user"></i> Shangze Li (NJUST) 
 
+
+
+<small>LLMs, MLLMs</small> 
+
+
+
+<small>📝 Submissions: TPAMI, CVPR, ICML (x2)</small>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="card p-3 mb-3" style="border-left: 5px solid #28a745;">
+<i class="fas fa-user"></i> Jingtong Dou (USYD) 
+
+
+
+<small>Sign Language</small> 
+
+
+
+<small>📝 Submissions: CVPR, ICML, ICME</small>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-6">
+<div class="card p-3 mb-3" style="border-left: 5px solid #ffc107;">
+<i class="fas fa-user"></i> Shiming Guo (USYD) 
+
+
+
+<small>Medical Imaging</small> 
+
+
+
+<small>🏆 Pub: AAAI (Oral)</small> 
+
+
+
+<small>📝 Submissions: CVPR, ICML</small>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="card p-3 mb-3" style="border-left: 5px solid #17a2b8;">
+<i class="fas fa-user"></i> Simiao Xie (USYD) 
+
+
+
+<small>Medical Imaging &amp; MLLM</small> 
+
+
+
+<small>📝 Submissions: CVPR</small>
+</div>
+</div>
+</div>
