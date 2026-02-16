@@ -30,19 +30,25 @@ nav_order: 4
 
 > * **Shangze Li** · *Master Student @ NJUST*
 >     `LLMs` · `MLLMs`
+>     - 🏆 **Publication:** 
 >     - 📝 **Submissions:** TPAMI, CVPR, ICML (x2)
 
-* **Shiming Guo** · *Master Student @ University of Sydney*
-    `Medical Imaging`
-    - 🏆 **Publication:** AAAI (Oral)
-    - 📝 **Submissions:** CVPR, ICML
 
-* **Jingtong Dou** · *Master Student @ University of Sydney*
-    `Sign Language`
-    - 📝 **Submissions:** CVPR, ICML, ICME
+> * **Shiming Guo** · *Master Student @ University of Sydney*
+>     `Medical Imaging`
+>     - 🏆 **Publication:** AAAI (Oral)
+>     - 📝 **Submissions:** CVPR, ICML
 
-* **Simiao Xie** · *Master Student @ University of Sydney*
-    `Medical Imaging` · `MLLM`
-    - 📝 **Submissions:** CVPR
+
+> * **Jingtong Dou** · *Master Student @ University of Sydney*
+>    `Sign Language`
+>     - 🏆 **Publication:** 
+>     - 📝 **Submissions:** CVPR, ICML, ICME
+
+
+> * **Simiao Xie** · *Master Student @ University of Sydney*
+>     `Medical Imaging` · `MLLM`
+>     - 🏆 **Publication:** 
+>     - 📝 **Submissions:** CVPR
 
 ---
