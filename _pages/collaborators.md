@@ -9,13 +9,9 @@ nav_order: 4
 
 ### 🎓 Research Fellow
 > <i class="fas fa-user-tie"></i> **Fei Shen**
-> 
 > *Research Fellow @ NExT++ Center, NUS*
-> 
 > `AIGC` · `LLM` · `MLLM`
-> 
 > - 🏆 **AAAI (Oral)**
-> - 
 > - 📝 *Submissions:* TPAMI, CVPR, ICML (x2), IJCAI, ICME
 
 ---
