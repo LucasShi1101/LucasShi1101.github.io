@@ -7,8 +7,6 @@ nav: true
 nav_order: 4
 ---
 
-## 👥 Research Team
-
 ### 🎓 Research Fellow
 > <i class="fas fa-user-tie"></i> **Fei Shen**
 > *Research Fellow @ NExT++ Center, NUS*
