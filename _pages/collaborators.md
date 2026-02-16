@@ -28,9 +28,9 @@ nav_order: 4
 
 ### 🧑‍🎓 Master Students
 
-* **Shangze Li** · *Master Student @ NJUST*
-    `LLMs` · `MLLMs`
-    - 📝 **Submissions:** TPAMI, CVPR, ICML (x2)
+> * **Shangze Li** · *Master Student @ NJUST*
+>     `LLMs` · `MLLMs`
+>     - 📝 **Submissions:** TPAMI, CVPR, ICML (x2)
 
 * **Shiming Guo** · *Master Student @ University of Sydney*
     `Medical Imaging`
@@ -44,3 +44,5 @@ nav_order: 4
 * **Simiao Xie** · *Master Student @ University of Sydney*
     `Medical Imaging` · `MLLM`
     - 📝 **Submissions:** CVPR
+
+---
