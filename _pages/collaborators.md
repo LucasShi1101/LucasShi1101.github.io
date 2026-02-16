@@ -10,23 +10,32 @@ nav_order: 4
 ## 👥 Research Team
 
 ### 🎓 Research Fellow
-> **[Fei Shen](链接)** > *Research Fellow @ NExT++ Center, National University of Singapore* > `AIGC` | `LLM` | `MLLM`  
-> - [x] 🏆 **Publication:** AAAI (Oral)
-> - [ ] 📝 **Submissions:** TPAMI, CVPR, ICML (x2), IJCAI, ICME
+> <i class="fas fa-user-tie"></i> **Fei Shen**
+> *Research Fellow @ NExT++ Center, NUS*
+> `AIGC` · `LLM` · `MLLM`
+> - 🏆 **AAAI (Oral)**
+> - 📝 *Submissions:* TPAMI, CVPR, ICML (x2), IJCAI, ICME
 
 ---
 
 ### 🗳️ Ph.D. Students
-> **[Wenhua Wu](链接)** > *Ph.D. Candidate @ The University of Sydney* > `Medical Imaging` | `Remote Sensing`
-> - [ ] 📝 **Submissions:** TPAMI, CVPR, ICML (x2), ICME
+> <i class="fas fa-user-graduate"></i> **Wenhua Wu**
+> *Ph.D. Candidate @ The University of Sydney*
+> `Medical Imaging` · `Remote Sensing`
+> - 📝 *Submissions:* TPAMI, CVPR, ICML (x2), ICME
 
 ---
 
 ### 🧑‍🎓 Master Students
 
-| 👤 Name | 🏫 Affiliation | 📘 Research Focus & Status |
-| :--- | :--- | :--- |
-| **Shangze Li** | NJUST | `LLMs`, `MLLMs` <br> 📝 Submissions: TPAMI, CVPR, ICML (x2) |
-| **Jingtong Dou** | USYD | `Sign Language` <br> 📝 Submissions: CVPR, ICML, ICME |
-| **Shiming Guo** | USYD | `Medical Imaging` <br> 🏆 Pub: AAAI (Oral) <br> 📝 Submissions: CVPR, ICML |
-| **Simiao Xie** | USYD | `Medical Imaging & MLLM` <br> 📝 Submissions: CVPR |
+* <i class="fas fa-seedling"></i> **Shangze Li** (NJUST) — `LLMs`, `MLLMs`
+    <small>📝 *Submissions:* TPAMI, CVPR, ICML (x2)</small>
+
+* <i class="fas fa-seedling"></i> **Jingtong Dou** (USYD) — `Sign Language`
+    <small>📝 *Submissions:* CVPR, ICML, ICME</small>
+
+* <i class="fas fa-award"></i> **Shiming Guo** (USYD) — `Medical Imaging`
+    <small>🏆 **AAAI (Oral)** | 📝 *Submissions:* CVPR, ICML</small>
+
+* <i class="fas fa-seedling"></i> **Simiao Xie** (USYD) — `Medical Imaging & MLLM`
+    <small>📝 *Submissions:* CVPR</small>
