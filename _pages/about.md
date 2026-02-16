@@ -36,3 +36,5 @@ Ultimately, I hope to contribute to the development of AI systems that are more 
 Thank you for visiting my website 😊!
 
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=GyBBQbYvWOjNM-934UOTf3mCjii7x2NHm13RAUFtLYs&cl=ffffff&w=a"></script>
+
+<a href="https://mapmyvisitors.com/web/1c2l8"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=GyBBQbYvWOjNM-934UOTf3mCjii7x2NHm13RAUFtLYs&cl=ffffff" /></a>
