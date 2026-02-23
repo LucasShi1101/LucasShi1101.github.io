@@ -11,8 +11,8 @@ nav_order: 4
 > <i class="fas fa-user-tie"></i> **Fei Shen**
 > *Research Fellow @ NExT++ Center, NUS*
 > `AIGC` · `LLM` · `MLLM`
-> - 🏆 **AAAI (Oral)**
-> - 📝 *Submissions:* TPAMI, CVPR, ICML (x2), IJCAI, ICME
+> - 🏆 **AAAI (Oral)**, **CVPR**
+> - 📝 *Submissions:* TPAMI, ICML (x2), IJCAI, ICME
 
 ---
 
@@ -20,7 +20,8 @@ nav_order: 4
 > <i class="fas fa-user-graduate"></i> **Wenhua Wu**
 > *Ph.D. Candidate @ The University of Sydney*
 > `Medical Imaging` · `Remote Sensing`
-> - 📝 *Submissions:* TPAMI, CVPR, ICML (x2), ICME
+> - 🏆 **CVPR**
+> - 📝 *Submissions:* TPAMI, ICML (x2), ICME
 
 ---
 
@@ -28,25 +29,25 @@ nav_order: 4
 
 > * **Shangze Li** · *Master Student @ NJUST*
 >     `LLMs` · `MLLMs`
->     - 🏆 **Publication:** 
->     - 📝 **Submissions:** TPAMI, CVPR, ICML (x2)
+>     - 🏆 **Publication:** CVPR
+>     - 📝 **Submissions:** TPAMI, ICML
 
 
 > * **Shiming Guo** · *Master Student @ University of Sydney*
 >     `Medical Imaging`
->     - 🏆 **Publication:** AAAI (Oral)
->     - 📝 **Submissions:** CVPR, ICML
+>     - 🏆 **Publication:** AAAI (Oral), CVPR
+>     - 📝 **Submissions:** ICML
 
 
 > * **Jingtong Dou** · *Master Student @ University of Sydney*
 >    `Sign Language`
->     - 🏆 **Publication:** 
->     - 📝 **Submissions:** CVPR, ICML, ICME
+>     - 🏆 **Publication:** CVPR
+>     - 📝 **Submissions:** ICML, ICME
 
 
 > * **Simiao Xie** · *Master Student @ University of Sydney*
 >     `Medical Imaging` · `MLLM`
->     - 🏆 **Publication:** 
->     - 📝 **Submissions:** CVPR
+>     - 🏆 **Publication:** CVPR
+>     - 📝 **Submissions:** 
 
 ---
