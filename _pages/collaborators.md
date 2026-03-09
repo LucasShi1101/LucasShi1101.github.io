@@ -48,6 +48,18 @@ nav_order: 4
 > * **Simiao Xie** · *Master Student @ University of Sydney*
 >     `Medical Imaging` · `MLLM`
 >     - 🏆 **Publication:** CVPR
+>     - 📝 **Submissions:**
+
+
+> * **Zifan Zheng** · *Master Student @ University of Sydney*
+>     `LLM`
+>     - 🏆 **Publication:** 
+>     - 📝 **Submissions:** 
+
+
+> * **Yuxin Huang** · *Master Student @ University of Sydney*
+>     `Controllable Generation Model`
+>     - 🏆 **Publication:** 
 >     - 📝 **Submissions:** 
 
 ---
