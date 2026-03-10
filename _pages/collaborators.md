@@ -18,6 +18,13 @@ nav_order: 4
 
 ### 🗳️ Ph.D. Students
 > <i class="fas fa-user-graduate"></i> **Wenhua Wu**
+> *Ph.D. Candidate @ Tianjin University of Science and Technology*
+> `Anomaly Detection`
+> - 🏆 
+> - 📝 *Submissions:* ICME
+
+
+> <i class="fas fa-user-graduate"></i> **Naiqi Zhang**
 > *Ph.D. Candidate @ The University of Sydney*
 > `Medical Imaging` · `Remote Sensing`
 > - 🏆 **CVPR**
