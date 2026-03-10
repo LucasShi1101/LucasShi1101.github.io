@@ -12,7 +12,7 @@ nav_order: 4
 > *Research Fellow @ NExT++ Center, NUS*
 > `AIGC` · `LLM` · `MLLM`
 > - 🏆 **AAAI (Oral)**, **CVPR**
-> - 📝 *Submissions:* TPAMI, ICML (x2), IJCAI, ICME
+> - 📝 *Submissions:* TPAMI, ICML (x2), ICME
 
 ---
 
