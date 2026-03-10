@@ -59,7 +59,7 @@ nav_order: 4
 
 
 > * **Zifan Zheng** · *Master Student @ University of Sydney*
->     `LLM`
+>     `MLLMs` · `LLMs`
 >     - 🏆 **Publication:** 
 >     - 📝 **Submissions:** 
 
