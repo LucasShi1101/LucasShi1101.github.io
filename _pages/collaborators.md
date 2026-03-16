@@ -20,15 +20,15 @@ nav_order: 4
 > <i class="fas fa-user-graduate"></i> **Wenhua Wu**
 > *Ph.D. Candidate @ The University of Sydney*
 > `Medical Imaging` · `Remote Sensing`
-> - 🏆 **CVPR**
-> - 📝 *Submissions:* TPAMI, ICML (x2), ICME
+> - 🏆 **CVPR**, **ICME**
+> - 📝 *Submissions:* TPAMI, ICML (x2)
 
 
 > <i class="fas fa-user-graduate"></i> **Naiqi Zhang**
 > *Ph.D. Candidate @ Tianjin University of Science and Technology*
 > `Anomaly Detection`
-> - 🏆 
-> - 📝 *Submissions:* ICME
+> - 🏆 , **ICME**
+> - 📝 *Submissions:* 
 
 ---
 
@@ -48,8 +48,8 @@ nav_order: 4
 
 > * **Jingtong Dou** · *Master Student @ University of Sydney*
 >    `Sign Language`
->     - 🏆 **Publication:** CVPR
->     - 📝 **Submissions:** ICML, ICME
+>     - 🏆 **Publication:** CVPR, ICME
+>     - 📝 **Submissions:** ICML
 
 
 > * **Simiao Xie** · *Master Student @ University of Sydney*
