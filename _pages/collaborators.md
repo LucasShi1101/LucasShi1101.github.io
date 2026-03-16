@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-### 🎓 Professor
+### 🧑‍🏫 Professor
 > <i class="fas fa-user-tie"></i> **Tat-Seng Chua**
 > *Professor @ NExT++ Center, NUS*
 > - 🏆 **CVPR**
