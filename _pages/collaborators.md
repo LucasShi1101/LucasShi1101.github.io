@@ -31,7 +31,7 @@ nav_order: 4
 > *Research Fellow @ NExT++ Center, NUS*
 > `AIGC` · `LLM` · `MLLM`
 > - 🏆 **AAAI 2026 (Oral)**, **CVPR 2026**
-> - 📝 *Submissions:* TPAMI, ICML (x2), ICME, ECCV, ACM MM x2
+> - 📝 *Submissions:* TPAMI, ICML (x2), ICME, ECCV, ACM MM (x2)
 
 ---
 
