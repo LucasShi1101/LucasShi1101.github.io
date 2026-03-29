@@ -31,7 +31,7 @@ nav_order: 4
 > *Research Fellow @ NExT++ Center, NUS*
 > `AIGC` · `LLM` · `MLLM`
 > - 🏆 **AAAI 2026 (Oral)**, **CVPR 2026**
-> - 📝 *Submissions:* TPAMI, ICML (x2), ICME, ECCV
+> - 📝 *Submissions:* TPAMI, ICML (x2), ICME, ECCV, ACM MM x2
 
 ---
 
@@ -68,7 +68,7 @@ nav_order: 4
 > * **Jingtong Dou** · *Master Student @ University of Sydney*
 >    `Sign Language`
 >     - 🏆 **Publication:** CVPR 2026, ICME 2026
->     - 📝 **Submissions:** ICML
+>     - 📝 **Submissions:** ICML, ACM MM
 
 
 > * **Simiao Xie** · *Master Student @ University of Sydney*
