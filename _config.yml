@@ -265,8 +265,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Shi]
-  first_name: [Chuancheng, C.]
+  last_name: [Shi, Shi*]
+  first_name: [Chuancheng, Chuancheng*, C.]
 
   style: apa
   locale: en
