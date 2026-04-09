@@ -86,8 +86,10 @@
         {% endif %}
         {%- if author_is_self -%}
           <em>
-            {{- author.first }}
-            {{ author_last_html -}}
+            <b style="color: var(--global-theme-color); font-weight: 800; border-bottom: none;">
+              {{author.first}} 
+              {{author.last}}
+            </b>
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
