@@ -1,16 +1,11 @@
 
 .bibliography em {
-  font-style: normal !important;      /* 去除可能存在的斜体 */
-  font-weight: 800 !important;        /* 字体加粗（数值越大越粗，也可以写 bold） */
-  text-decoration: none !important;   /* 去除默认的下划线 */
-  border-bottom: none !important;     /* 防止模版是用 border 实现的下划线 */
+  font-style: normal !important;     
+  font-weight: 800 !important;        
+  text-decoration: none !important; 
+  border-bottom: none !important;     
   
-  /* --- 以下是几种额外的高亮方案，你可以根据喜好保留其中一个 --- */
-  
-  /* 方案 1：改变文字颜色为你的主题色 (推荐，看起来很高级) */
+
   color: var(--global-theme-color) !important; 
-  
-  /* 方案 2：像荧光笔一样的黄色背景高亮 (如果需要，取消下面这行的注释) */
-  /* background-color: rgba(255, 215, 0, 0.4) !important; */
-  /* border-radius: 3px; */ /* 给背景色加一点圆角 */
+
 }
