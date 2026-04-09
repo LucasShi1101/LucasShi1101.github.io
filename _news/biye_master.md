@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-😄 I have successfully completed my Master’s degree and submitted my dissertation.
+😄 I have successfully completed my **Master’s degree** and submitted my dissertation.
