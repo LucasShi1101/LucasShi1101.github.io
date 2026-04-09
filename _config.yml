@@ -7,7 +7,7 @@ first_name: Chuancheng
 middle_name:
 last_name: Shi
 contact_note: >
- Keep your feet firmly on the ground while gazing at the stars.
+ <span style="font-family: 'Brush Script MT', 'Dancing Script', cursive; font-size: 1.4rem; font-weight: 800;">Keep your feet firmly on the ground while gazing at the stars.</span>
 description: Personal website of Chuancheng Shi. A researcher at the University of Sydney.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
