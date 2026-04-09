@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 One papers were accepted by **CVPR 2026**.
+🎉 One papers were accepted by **CVPR 2026 HighLight**.
