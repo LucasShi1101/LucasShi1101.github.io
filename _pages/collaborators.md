@@ -7,24 +7,6 @@ nav: true
 nav_order: 4
 ---
 
-### 🧑‍🏫 Professor
-> <i class="fas fa-user-tie"></i> **Tat-Seng Chua**
-> *Professor @ NExT++ Center, NUS*
-> - 🏆 **CVPR 2026 (HighLight)**
-> - 📝 *Submissions:* TPAMI, ICML (x2)
-
-> <i class="fas fa-user-tie"></i> **Zhiyong Wang**
-> *Professor @ The University of Sydney*
-> - 🏆 
-> - 📝 *Submissions:* ECCV, ACM MM
-
-
-> <i class="fas fa-user-tie"></i> **Jianhua Cao**
-> *Professor @ Tianjin University of Science and Technology*
-> - 🏆 **ICME 2026**
-> - 📝 *Submissions:* 
-
----
 
 ### 🎓 Research Fellow
 > <i class="fas fa-user-tie"></i> **Fei Shen**
