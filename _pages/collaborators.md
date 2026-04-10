@@ -54,7 +54,7 @@ nav_order: 4
 
 
 > * **Simiao Xie** · *Master Student @ University of Sydney*
->     `Medical Imaging` · `MLLM`
+>     `MLLM`
 >     - 🏆 **Publication:** CVPR 2026 (HighLight)
 >     - 📝 **Submissions:**
 
