@@ -12,7 +12,7 @@ nav_order: 4
 > <i class="fas fa-user-tie"></i> **Fei Shen**
 > *Research Fellow @ NExT++ Center, NUS*
 > `AIGC` · `LLM` · `MLLM`
-> - 🏆 **Publication:** AAAI 2026 (Oral), CVPR 2026 (Highlight)
+> - 🏆 **Publication:** AAAI 2026 (Oral), CVPR 2026 (Highlight), ICME 2026
 > - 📝 **Submissions:** TPAMI, ICML (x2), ICME, ECCV, ACM MM (x2)
 
 ---
