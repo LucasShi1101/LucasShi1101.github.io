@@ -48,7 +48,7 @@ nav_order: 4
 
 
 > * **Jingtong Dou** · *Master Student @ University of Sydney*
->    `Sign Language`
+>    `DeepFake`
 >     - 🏆 **Publication:** CVPR 2026 (Highlight), ICME 2026
 >     - 📝 **Submissions:** ICML, ACM MM
 
