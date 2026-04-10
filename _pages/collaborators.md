@@ -54,7 +54,7 @@ nav_order: 4
 
 
 > * **Simiao Xie** · *Master Student @ University of Sydney*
->     `MLLM`
+>     `MLLMs`
 >     - 🏆 **Publication:** CVPR 2026 (HighLight)
 >     - 📝 **Submissions:**
 
