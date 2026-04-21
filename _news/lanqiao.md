@@ -1,8 +1,0 @@
----
-layout: post
-date: 2022-5-1 15:59:00-0400
-inline: true
-related_posts: false
----
-
-🏆 蓝桥杯全国软件和信息技术专业人才大赛(C++组)  市级二等奖
