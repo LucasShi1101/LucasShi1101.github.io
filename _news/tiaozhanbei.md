@@ -1,8 +1,0 @@
----
-layout: post
-date: 2023-6-1 15:59:00-0400
-inline: true
-related_posts: false
----
-
-🏆 “挑战杯”大学生课外学术科技作品竞赛  市级二等奖
