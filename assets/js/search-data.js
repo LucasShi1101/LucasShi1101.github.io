@@ -28,10 +28,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-全国大学生电子设计竞赛-市级一等奖",
-          title: '🏆 全国大学生电子设计竞赛 市级一等奖',
-          description: "",
-          section: "News",},{id: "news-neurips-ariel-data-challenge-2024-rank-26",
+            },},{id: "news-neurips-ariel-data-challenge-2024-rank-26",
           title: '🏆 NeurIPS - Ariel Data Challenge 2024  Rank:26',
           description: "",
           section: "News",},{id: "news-child-mind-institute-problematic-internet-use-rank-136",
