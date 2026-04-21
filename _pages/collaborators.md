@@ -60,7 +60,7 @@ nav_order: 4
 
 
 > * **Zifan Zheng** · *Master Student @ University of Sydney*
->     `MLLMs` · `LLMs`
+>     `MLLMs` · `3D`
 >     - 🏆 **Publication:** 
 >     - 📝 **Submissions:** 
 
