@@ -68,6 +68,12 @@ nav_order: 4
 > * **Yuxin Huang** · *Master Student @ University of Sydney*
 >     `Controllable Generation Model`
 >     - 🏆 **Publication:** 
->     - 📝 **Submissions:** 
+>     - 📝 **Submissions:**
+
+
+> * **Shaotian Li** · *Master Student @ Macquarie University*
+>     `Anomaly Detection`
+>     - 🏆 **Publication:** 
+>     - 📝 **Submissions:** ACM MM
 
 ---
