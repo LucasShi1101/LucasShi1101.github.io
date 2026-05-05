@@ -27,11 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I’m currently a researcher at the University of Sydney 🏫, where my research focuses on Text-to-Image (T2I) generation models and Large Language Models (LLMs). I’m particularly interested in the internal mechanisms of modern AI systems, and my recent work investigates neuron-level representation, interpretability, and semantic structure within these models.
+Hi! 👋 I’m currently a researcher at the **University of Sydney** and a Research Intern at the **[NExT++ Center](https://www.nextcenter.org/)**. My work focuses heavily on the interpretability of large foundation models. I’m deeply fascinated by the internal mechanisms of modern AI, and my recent research investigates how internal knowledge structures are composed, alongside neuron-level representations and semantic behaviors.
 
-My broader goal is to deepen our understanding of how generative models encode, organize, and transform information—from fine-grained neuron-level representations to high-level semantic behavior. By studying these internal mechanisms 🧠, I aim to uncover principles that can help us design models that behave more predictably, align more closely with human intent, and remain robust under diverse conditions.
+My overarching goal is to understand exactly how these massive models encode, organize, and transform information 🧠. By unpacking the structural composition of knowledge within neural networks, I hope to uncover principles that make AI systems more predictable, robust, and closely aligned with human intent.
 
-Ultimately, I hope to contribute to the development of AI systems that are more transparent, controllable, and trustworthy 🔍🤝. This includes not only improving interpretability and safety, but also enabling richer and more reliable creative and reasoning capabilities in next-generation generative models.
+Ultimately, I want to help build AI systems that are transparent, controllable, and trustworthy 🔍🤝. Beyond just improving safety, I am excited about enabling richer, more reliable creative and reasoning capabilities by making the "black box" of foundation models interpretable.
 
 Thank you for visiting my website 😊!
 
