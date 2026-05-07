@@ -2,9 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>The University of Sydney</a>
-
-          <a>📫chuancheng1101@gmail.com</a>
+subtitle: <a>📫chuancheng1101@gmail.com</a>
 
 profile:
   align: right
