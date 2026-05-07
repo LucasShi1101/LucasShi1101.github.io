@@ -27,12 +27,22 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! 👋 I’m currently a researcher at the **University of Sydney** and a Research Intern at the **[NExT++ Center](https://www.nextcenter.org/)**. My work focuses heavily on the interpretability of large foundation models. I’m deeply fascinated by the internal mechanisms of modern AI, and my recent research investigates how internal knowledge structures are composed, alongside neuron-level representations and semantic behaviors.
+Hi! 👋 I am a researcher at the **University of Sydney**, where I am fortunate to be advised by **[Prof. Zhiyong Wang](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/zhiyong-wang.html)**. Currently, I am also a Research Intern at the **[NExT++ Center](https://www.nextcenter.org/)**, collaborating closely with **Professor [Tat-Seng Chua](https://www.comp.nus.edu.sg/cs/people/chuats/)** and Research Fellow **[Fei Shen](https://muzishen.github.io/)**.
 
-My overarching goal is to understand exactly how these massive models encode, organize, and transform information 🧠. By unpacking the structural composition of knowledge within neural networks, I hope to uncover principles that make AI systems more predictable, robust, and closely aligned with human intent.
+## Research Interests 🧠
 
-Ultimately, I want to help build AI systems that are transparent, controllable, and trustworthy 🔍🤝. Beyond just improving safety, I am excited about enabling richer, more reliable creative and reasoning capabilities by making the "black box" of foundation models interpretable.
+My research focuses heavily on the **interpretability of large foundation models**. I am deeply fascinated by the internal mechanisms of modern AI, and my current work investigates:
 
-Thank you for visiting my website 😊!
+* **Knowledge Composition**: How internal knowledge structures are constructed and organized within neural networks.
+* **Neuron-level Representations**: Unpacking the "atomic" units of model behavior and their semantic roles.
+* **Information Transformation**: Understanding how massive models encode, organize, and transform complex information.
+
+## Vision & Goals 🔍🤝
+
+My overarching goal is to uncover the fundamental principles that make AI systems more **predictable, robust, and closely aligned with human intent**. By deciphering the structural composition of knowledge, I aim to transform the "black box" of foundation models into transparent systems.
+
+Ultimately, I want to help build AI that is **transparent, controllable, and trustworthy**. Beyond improving safety, I am excited about enabling richer, more reliable creative and reasoning capabilities through deep interpretability.
+
+Thank you for visiting my website! 😊
 
 
