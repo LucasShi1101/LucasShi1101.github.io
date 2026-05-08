@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! 👋 I am a researcher at the **University of Sydney**, where I am fortunate to be advised by **[Prof. Zhiyong Wang](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/zhiyong-wang.html)**. Currently, I am also a Research Intern at the **[NExT++ Center](https://www.nextcenter.org/)**, collaborating closely with **Professor [Tat-Seng Chua](https://www.comp.nus.edu.sg/cs/people/chuats/)** and Research Fellow **[Fei Shen](https://muzishen.github.io/)**.
+Hi! 👋 I am a researcher at the **University of Sydney**, where I am fortunate to be advised by **[Prof. Zhiyong Wang](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/zhiyong-wang.html)**. Currently, I am also a Research Intern at the **[NExT++ Center](https://www.nextcenter.org/)**, collaborating closely with **[Prof. Tat-Seng Chua](https://www.comp.nus.edu.sg/cs/people/chuats/)** and Research Fellow **[Fei Shen](https://muzishen.github.io/)**.
 
 ## Research Interests 🧠
 
