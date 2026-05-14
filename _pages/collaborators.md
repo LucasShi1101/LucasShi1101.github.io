@@ -12,8 +12,8 @@ nav_order: 4
 > <i class="fas fa-user-tie"></i> **Fei Shen**
 > *Research Fellow @ NExT++ Center, NUS*
 > `AIGC` · `LLM` · `MLLM`
-> - 🏆 **Publication:** AAAI 2026 (Oral), CVPR 2026 (Highlight), ICME 2026
-> - 📝 **Submissions:** TPAMI, ICML (x2), ICME, ECCV, ACM MM (x2)
+> - 🏆 **Publication:** AAAI 2026 (Oral), CVPR 2026 (Highlight), ICME 2026, ICML (x2),
+> - 📝 **Submissions:** TPAMI, ECCV, ACM MM (x2)
 
 ---
 
@@ -21,8 +21,8 @@ nav_order: 4
 > <i class="fas fa-user-graduate"></i> **Wenhua Wu**
 > *Ph.D. Candidate @ The University of Sydney*
 > `Medical Imaging` · `Remote Sensing`
-> - 🏆 **Publication:** CVPR 2026 (Highlight), ICME 2026
-> - 📝 **Submissions:** TPAMI, ICML (x2), ACM MM
+> - 🏆 **Publication:** CVPR 2026 (Highlight), ICME 2026, ICML 2026 (x2) 
+> - 📝 **Submissions:** TPAMI, ACM MM
 
 
 > <i class="fas fa-user-graduate"></i> **Naiqi Zhang**
@@ -37,20 +37,20 @@ nav_order: 4
 
 > * **Shangze Li** · *Master Student @ NJUST*
 >     `LLMs` · `MLLMs`
->     - 🏆 **Publication:** CVPR 2026 (Highlight)
->     - 📝 **Submissions:** TPAMI, ICML, ACM MM
+>     - 🏆 **Publication:** CVPR 2026 (Highlight), ICML 2026
+>     - 📝 **Submissions:** TPAMI, ACM MM
 
 
 > * **Shiming Guo** · *Master Student @ University of Sydney*
 >     `Medical Imaging`
->     - 🏆 **Publication:** AAAI 2026 (Oral), CVPR 2026 (Highlight)
->     - 📝 **Submissions:** ICML
+>     - 🏆 **Publication:** AAAI 2026 (Oral), CVPR 2026 (Highlight), ICML 2026
+>     - 📝 **Submissions:** 
 
 
 > * **Jingtong Dou** · *Master Student @ University of Sydney*
 >    `DeepFake`
->     - 🏆 **Publication:** CVPR 2026 (Highlight), ICME 2026
->     - 📝 **Submissions:** ICML, ACM MM
+>     - 🏆 **Publication:** CVPR 2026 (Highlight), ICME 2026, ICML 2026
+>     - 📝 **Submissions:** ACM MM
 
 
 > * **Simiao Xie** · *Master Student @ University of Sydney*
