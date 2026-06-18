@@ -21,7 +21,7 @@ nav_order: 4
 > <i class="fas fa-user-graduate"></i> **Wenhua Wu**
 > *Ph.D. Candidate @ The University of Sydney*
 > `Medical Imaging` · `Remote Sensing`
-> - 🏆 **Publication:** CVPR 2026 (Highlight), ICME 2026, ICML 2026 (x2) 
+> - 🏆 **Publication:** CVPR 2026 (Highlight), ICME 2026, ICML 2026 (x2), ECCV 2026
 > - 📝 **Submissions:** TPAMI, ACM MM
 
 
