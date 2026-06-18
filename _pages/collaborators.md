@@ -59,18 +59,6 @@ nav_order: 4
 >     - 📝 **Submissions:**
 
 
-> * **Zifan Zheng** · *Master Student @ University of Sydney*
->     `MLLMs` · `3D`
->     - 🏆 **Publication:** 
->     - 📝 **Submissions:** 
-
-
-> * **Yuxin Huang** · *Master Student @ University of Sydney*
->     `Controllable Generation Model`
->     - 🏆 **Publication:** 
->     - 📝 **Submissions:**
-
-
 > * **Shaotian Li** · *Master Student @ Macquarie University*
 >     `Anomaly Detection`
 >     - 🏆 **Publication:** 
