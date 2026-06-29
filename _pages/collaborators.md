@@ -12,8 +12,8 @@ nav_order: 4
 > <i class="fas fa-user-tie"></i> **Fei Shen**
 > *Research Fellow @ NExT++ Center, NUS*
 > `AIGC` · `LLM` · `MLLM`
-> - 🏆 **Publication:** AAAI 2026 (Oral), CVPR 2026 (Highlight), ICME 2026, ICML (x2),
-> - 📝 **Submissions:** TPAMI, ECCV, ACM MM (x2)
+> - 🏆 **Publication:** AAAI 2026 (Oral), CVPR 2026 (Highlight), ICME 2026, ICML (x2), ACMMM 2026
+> - 📝 **Submissions:** TPAMI, ECCV, ACMMM
 
 ---
 
@@ -38,7 +38,7 @@ nav_order: 4
 > * **Shangze Li** · *Master Student @ NJUST*
 >     `LLMs` · `MLLMs`
 >     - 🏆 **Publication:** CVPR 2026 (Highlight), ICML 2026
->     - 📝 **Submissions:** TPAMI, ACM MM
+>     - 📝 **Submissions:** TPAMI, ACMMM
 
 
 > * **Shiming Guo** · *Master Student @ University of Sydney*
@@ -49,8 +49,8 @@ nav_order: 4
 
 > * **Jingtong Dou** · *Master Student @ University of Sydney*
 >    `DeepFake`
->     - 🏆 **Publication:** CVPR 2026 (Highlight), ICME 2026, ICML 2026
->     - 📝 **Submissions:** ACM MM
+>     - 🏆 **Publication:** CVPR 2026 (Highlight), ICME 2026, ICML 2026, ACMMM 2026
+>     - 📝 **Submissions:** TPAMI
 
 
 > * **Simiao Xie** · *Master Student @ University of Sydney*
@@ -62,6 +62,6 @@ nav_order: 4
 > * **Shaotian Li** · *Master Student @ Macquarie University*
 >     `Anomaly Detection`
 >     - 🏆 **Publication:** 
->     - 📝 **Submissions:** ACM MM
+>     - 📝 **Submissions:** ACMMM
 
 ---
