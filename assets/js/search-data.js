@@ -61,6 +61,9 @@ ninja.data = [{
           section: "News",},{id: "news-one-papers-were-accepted-by-eccv-2026",
           title: '🎉 One papers were accepted by ECCV 2026.',
           description: "",
+          section: "News",},{id: "news-one-papers-were-accepted-by-acmmm-2026",
+          title: '🎉 One papers were accepted by ACMMM 2026.',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
