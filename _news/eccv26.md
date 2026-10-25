@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 One papers were accepted by **ECCV 2026**.
+🎉 **One** papers were accepted by **ECCV 2026**.
