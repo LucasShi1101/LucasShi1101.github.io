@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Three papers were accepted by **ACMMM 2026**.
+🎉 **Three** papers were accepted by **ACMMM 2026**.
