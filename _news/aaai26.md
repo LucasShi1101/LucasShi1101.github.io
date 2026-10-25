@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 One papers were accepted by **AAAI 2026 Oral**.
+🎉 **One** papers were accepted by **AAAI 2026 Oral**.
