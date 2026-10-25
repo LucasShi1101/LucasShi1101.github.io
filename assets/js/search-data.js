@@ -64,6 +64,9 @@ ninja.data = [{
           section: "News",},{id: "news-three-papers-were-accepted-by-acmmm-2026",
           title: '🎉 Three papers were accepted by ACMMM 2026.',
           description: "",
+          section: "News",},{id: "news-one-papers-were-accepted-by-tpami-jcr-q1-ccf-a-if-20-398",
+          title: '🎉 One papers were accepted by TPAMI. (JCR Q1, CCF-A, IF: 20.398)',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
