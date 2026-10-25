@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 One papers were accepted by **TPAMI**. (JCR Q1, CCF-A, **IF: 20.398**)
+🎉 **One** papers were accepted by **TPAMI**. (JCR Q1, CCF-A, **IF: 20.398**)
