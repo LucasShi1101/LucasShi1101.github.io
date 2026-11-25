@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "Notes on AI interpretability, foundation models, and research.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
         },{id: "nav-collaborators",
           title: "collaborators",
           description: "Some information about my collaborators.",
