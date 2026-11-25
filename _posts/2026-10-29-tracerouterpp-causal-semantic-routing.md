@@ -3,9 +3,6 @@ layout: post
 title: "TPAMI 2026｜悉尼大学和新国立提出：从“堵神经元”到“改路径”，TraceRouter++重定向大模型有害语义"
 date: 2026-10-29 00:00:00 +0000
 description: "通过跨层因果路径追踪和最优传输重对齐，提升基础模型的安全性。"
-design_theme: routing
-paper_short: TraceRouter++
-hero_image: /assets/img/blog/thumbnails/routing.webp
 ---
 
 > **论文速览**：传统安全干预往往试图找到少数“危险神经元”并将其压制，但有害语义并不会老老实实待在一个节点里，而是沿跨层计算路径传播。发表于 IEEE TPAMI 的 TraceRouter++ 提出 **Discover–Trace–Realign** 框架：先发现有害语义开始分化的敏感层，再追踪跨层因果路由，最后利用最优传输将不安全激活软重对齐到安全参考分布。实验横跨大语言模型、多模态大模型和扩散模型，在显著提高防御成功率的同时，将多项通用能力损失控制在较小范围内。

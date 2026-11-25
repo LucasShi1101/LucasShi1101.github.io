@@ -3,9 +3,6 @@ layout: post
 title: "把纯视觉和纯文本模型直接“拼”出多模态能力！NUS 等提出 SAVERA：稀疏对齐 + 视觉证据复用，打破冻结模型跨模态拼装瓶颈"
 date: 2026-11-24 15:42:30 +0000
 description: "通过稀疏对齐和视觉证据复用，将冻结的视觉模型与语言模型拼接成多模态系统。"
-design_theme: savera
-paper_short: SAVERA
-hero_image: /assets/img/blog/thumbnails/savera.webp
 ---
 
 > **导读**：把一个**从未见过文本的纯视觉模型（如 DINOv2）**，和一个**从未见过图像的纯文本大语言模型(如 Vicuna)** 直接“拼”在一起——**两边参数全程冻结、不动一根毫毛**，能不能拼出既能看图说话、又能精准问答、还不易产生幻觉的多模态大模型？

@@ -2,25 +2,45 @@
 layout: about
 title: about
 permalink: /
-selected_papers: true
-social: true
+subtitle: 📫chuancheng1101@gmail.com
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
 announcements:
-  enabled: true
-  scrollable: false
-  limit: 20
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 20 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
-<section class="home-intro" aria-labelledby="home-intro-title">
-  <div class="home-intro__heading"><p class="home-section__index">The work</p><h2 id="home-intro-title">Opening the black box of AI.</h2></div>
-  <div class="home-intro__body"><p>I am a researcher at the <a href="https://www.sydney.edu.au/">University of Sydney</a>, advised by <a href="https://www.sydney.edu.au/engineering/about/our-people/academic-staff/zhiyong-wang.html">Prof. Zhiyong Wang</a>. At the <a href="https://www.nextcenter.org/">NExT++ Center</a>, I work with <a href="https://www.comp.nus.edu.sg/cs/people/chuats/">Prof. Tat-Seng Chua</a> and Research Fellow <a href="https://muzishen.github.io/">Fei Shen</a>.</p><p>My work asks how large foundation models compose knowledge, represent concepts at the neuron level, and transform information across their layers.</p></div>
-</section>
 
-<section class="home-research" aria-labelledby="home-research-title">
-  <div class="home-section__heading"><div><p class="home-section__index">Research focus</p><h2 id="home-research-title">Three questions guide my work.</h2></div></div>
-  <div class="home-research__grid">
-    <article class="home-research__card"><span class="home-research__number">01</span><div class="home-research__diagram home-research__diagram--nodes" aria-hidden="true"><i></i><i></i><i></i><i></i></div><h3>Knowledge composition</h3><p>How are internal knowledge structures constructed and organized within neural networks?</p></article>
-    <article class="home-research__card"><span class="home-research__number">02</span><div class="home-research__diagram home-research__diagram--neuron" aria-hidden="true"><i></i><i></i><i></i></div><h3>Neuron-level representations</h3><p>What semantic roles do the “atomic” units of model behavior play?</p></article>
-    <article class="home-research__card"><span class="home-research__number">03</span><div class="home-research__diagram home-research__diagram--flow" aria-hidden="true"><i></i><i></i><i></i></div><h3>Information transformation</h3><p>How do models encode, organize, and transform complex information?</p></article>
-  </div>
-</section>
+Hi! 👋 I am a researcher at the **[University of Sydney](https://www.sydney.edu.au/)**, where I am fortunate to be advised by **[Prof. Zhiyong Wang](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/zhiyong-wang.html)**. Currently, I am also a Research Intern at the **[NExT++ Center](https://www.nextcenter.org/)**, collaborating closely with **[Prof. Tat-Seng Chua](https://www.comp.nus.edu.sg/cs/people/chuats/)** and Research Fellow **[Fei Shen](https://muzishen.github.io/)**.
 
-<section class="home-vision" aria-labelledby="home-vision-title"><p class="home-section__index">Why it matters</p><h2 id="home-vision-title">Interpretability can make AI more predictable, controllable, and trustworthy.</h2><p>By tracing the structure of knowledge inside foundation models, I hope to help turn opaque systems into tools that people can understand and guide. That understanding can support safer systems and more reliable creative and reasoning capabilities.</p></section>
+## Research Interests 🧠
+
+My research focuses heavily on the **interpretability of large foundation models**. I am deeply fascinated by the internal mechanisms of modern AI, and my current work investigates:
+
+* **Knowledge Composition**: How internal knowledge structures are constructed and organized within neural networks.
+* **Neuron-level Representations**: Unpacking the "atomic" units of model behavior and their semantic roles.
+* **Information Transformation**: Understanding how massive models encode, organize, and transform complex information.
+
+## Vision & Goals 🔍🤝
+
+My overarching goal is to uncover the fundamental principles that make AI systems more **predictable, robust, and closely aligned with human intent**. By deciphering the structural composition of knowledge, I aim to transform the "black box" of foundation models into transparent systems.
+
+Ultimately, I want to help build AI that is **transparent, controllable, and trustworthy**. Beyond improving safety, I am excited about enabling richer, more reliable creative and reasoning capabilities through deep interpretability.
+
+Thank you for visiting my website! 😊
+
+

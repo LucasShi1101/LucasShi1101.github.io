@@ -3,9 +3,6 @@ layout: post
 title: "悉尼大学和新国立提出：鲁棒的大模型不仅需要高准确率，还需要稳定的潜在知识"
 date: 2026-10-11 02:16:29 +0000
 description: "用潜在状态稳定性与知识拓扑稳定性，检验大模型正确答案背后的知识是否可靠。"
-design_theme: stability
-paper_short: Stable knowledge
-hero_image: /assets/img/blog/thumbnails/stability.webp
 ---
 
 > **论文速览**：模型第一次答对，只能证明它这一次给出了正确输出；却不能证明，支撑答案的内部知识表示足够稳定。来自悉尼大学、南京理工大学、伊迪斯科文大学和新加坡国立大学的研究团队提出 **LSS** 与 **KTS** 两个指标，并构建 **EpiStableBench**，试图回答一个比“准确率有多高”更难的问题：**模型的正确答案，究竟有没有稳定的知识支撑？**
