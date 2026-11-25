@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="mailto:chuancheng1101@gmail.com">📫chuancheng1101@gmail.com</a>
+subtitle: 📫chuancheng1101@gmail.com
 
 profile:
   align: right
