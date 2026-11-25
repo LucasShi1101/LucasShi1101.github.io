@@ -185,9 +185,9 @@ html[data-theme="dark"] .paper-hero, html[data-theme="dark"] .paper-content bloc
 }
 
 .home-motion-ready .home-reveal {
-  opacity: 0;
-  translate: 0 22px;
-  transition: opacity .75s ease, translate .75s cubic-bezier(.22, 1, .36, 1);
+  opacity: .28;
+  translate: 0 16px;
+  transition: opacity .65s ease, translate .65s cubic-bezier(.22, 1, .36, 1);
 }
 
 .home-motion-ready .home-reveal.is-visible {

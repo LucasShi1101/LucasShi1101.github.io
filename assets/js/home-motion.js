@@ -17,7 +17,7 @@
         entry.target.classList.add('is-visible');
         observer.unobserve(entry.target);
       });
-    }, { threshold: 0.08, rootMargin: '0px 0px -24px 0px' });
+    }, { threshold: 0.05, rootMargin: '0px 0px 160px 0px' });
     revealTargets.forEach((item) => observer.observe(item));
   }
 
