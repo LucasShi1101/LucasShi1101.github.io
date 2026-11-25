@@ -5,7 +5,7 @@ date: 2026-01-30 03:48:30 +0000
 description: "从预训练模型的中间层挖掘稀疏鉴伪神经元，提升跨生成模型的检测泛化。"
 design_theme: dna
 paper_short: DNA
-hero_image: /assets/img/blog/thumbnails/dna.webp
+hero_image: /assets/img/blog/covers/dna.webp
 ---
 
 > **论文：** DNA: Uncovering Universal Latent Forgery Knowledge  
