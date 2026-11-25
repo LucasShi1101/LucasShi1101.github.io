@@ -141,3 +141,9 @@ html[data-theme="dark"] .paper-hero, html[data-theme="dark"] .paper-content bloc
 .site-skip-link { position: fixed; z-index: 9999; top: -100px; left: 1rem; padding: .6rem 1rem; background: var(--global-bg-color); color: var(--global-text-color); border: 2px solid var(--global-theme-color); border-radius: 6px; }
 .site-skip-link:focus { top: .5rem; }
 #main-content { scroll-margin-top: 72px; }
+
+/* Base typography assigns a color to every heading, so dark panels need an explicit heading color. */
+.home-vision h2,
+.home-closing h2 {
+  color: #f2f7f3;
+}
