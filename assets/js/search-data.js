@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-blog",
           title: "blog",
-          description: "Notes on AI interpretability, foundation models, and research.",
+          description: "Research stories from inside foundation models.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
