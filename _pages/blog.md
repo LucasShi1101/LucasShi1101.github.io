@@ -8,8 +8,9 @@ nav_order: 3
 ---
 
 {% if site.posts.size > 0 %}
+  {% assign sorted_posts = site.posts | sort: "date" | reverse %}
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in sorted_posts %}
       <li>
         <p class="post-meta">{{ post.date | date: '%B %d, %Y' }}</p>
         <h2>
