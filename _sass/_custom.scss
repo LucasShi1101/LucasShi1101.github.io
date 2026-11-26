@@ -25,10 +25,10 @@
   --site-mint: #a1ffcb;
   --site-surface: #f3f5f2;
   --site-ink: #232323;
-  --ambient-mint: rgba(115, 190, 153, .19);
-  --ambient-blue: rgba(118, 171, 199, .13);
-  --ambient-sand: rgba(223, 188, 139, .1);
-  --ambient-dot: rgba(19, 92, 80, .18);
+  --ambient-mint: rgba(61, 184, 131, .29);
+  --ambient-blue: rgba(83, 155, 208, .23);
+  --ambient-sand: rgba(237, 187, 116, .18);
+  --ambient-dot: rgba(19, 92, 80, .29);
 }
 
 html[data-theme="dark"] {
@@ -42,10 +42,10 @@ html[data-theme="dark"] {
   --global-card-bg-color: #232d27;
   --site-surface: #202a24;
   --site-ink: #f2f6f3;
-  --ambient-mint: rgba(57, 129, 101, .2);
-  --ambient-blue: rgba(60, 102, 128, .17);
-  --ambient-sand: rgba(121, 99, 68, .11);
-  --ambient-dot: rgba(161, 255, 203, .11);
+  --ambient-mint: rgba(50, 154, 112, .3);
+  --ambient-blue: rgba(69, 117, 158, .25);
+  --ambient-sand: rgba(151, 113, 65, .16);
+  --ambient-dot: rgba(161, 255, 203, .2);
 }
 
 html { scroll-behavior: smooth; }
@@ -63,33 +63,33 @@ body::after {
 
 body::before {
   background:
-    radial-gradient(ellipse 43% 40% at 14% 18%, var(--ambient-mint), transparent 74%),
-    radial-gradient(ellipse 46% 43% at 85% 65%, var(--ambient-blue), transparent 75%),
-    radial-gradient(ellipse 38% 32% at 43% 97%, var(--ambient-sand), transparent 76%);
-  animation: ambient-breathe 28s ease-in-out infinite alternate;
+    radial-gradient(ellipse 50% 52% at 8% 18%, var(--ambient-mint), transparent 74%),
+    radial-gradient(ellipse 50% 54% at 92% 68%, var(--ambient-blue), transparent 75%),
+    radial-gradient(ellipse 38% 32% at 48% 103%, var(--ambient-sand), transparent 76%);
+  animation: ambient-breathe 14s linear infinite alternate;
 }
 
 body::after {
-  background-image: radial-gradient(circle, var(--ambient-dot) .65px, transparent 1px);
-  background-size: 30px 30px;
-  -webkit-mask-image: radial-gradient(ellipse 50% 65% at 78% 40%, #000 5%, transparent 100%);
-  mask-image: radial-gradient(ellipse 50% 65% at 78% 40%, #000 5%, transparent 100%);
-  opacity: .4;
-  animation: ambient-grid 36s ease-in-out infinite alternate;
+  background-image: radial-gradient(circle, var(--ambient-dot) .8px, transparent 1.25px);
+  background-size: 28px 28px;
+  -webkit-mask-image: radial-gradient(ellipse 55% 72% at 78% 42%, #000 10%, transparent 100%);
+  mask-image: radial-gradient(ellipse 55% 72% at 78% 42%, #000 10%, transparent 100%);
+  opacity: .55;
+  animation: ambient-grid 20s linear infinite alternate;
 }
 
 @keyframes ambient-breathe {
-  from { transform: translate3d(-1.5%, 1%, 0) scale(1); }
-  to { transform: translate3d(1.5%, -1%, 0) scale(1.08); }
+  from { transform: translate3d(-4%, 2%, 0) scale(1); opacity: .75; }
+  to { transform: translate3d(4%, -2%, 0) scale(1.13); opacity: 1; }
 }
 
 @keyframes ambient-grid {
   from { transform: translate3d(0, 0, 0); }
-  to { transform: translate3d(-24px, 15px, 0); }
+  to { transform: translate3d(-70px, 34px, 0); }
 }
 
 @media (max-width: 700px) {
-  body::after { opacity: .22; }
+  body::after { opacity: .35; }
 }
 
 @media (prefers-reduced-motion: reduce), print {
