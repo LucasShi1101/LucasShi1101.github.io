@@ -168,15 +168,41 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--global-theme-co
 .home-research__card { min-height: 310px; padding: 1.5rem; background: var(--site-surface); border: 1px solid var(--global-divider-color); border-radius: 12px; transition: transform .2s ease, border-color .2s ease; }
 .home-research__card:hover { transform: translateY(-2px); border-color: #8bc4a7; }
 .home-research__number { color: var(--global-theme-color); font-size: .8rem; font-weight: 600; }
-.home-research__diagram { position: relative; height: 92px; margin: 1.35rem 0 1.15rem; }
-.home-research__diagram i { position: absolute; display: block; width: 18px; height: 18px; border: 2px solid #135c50; border-radius: 50%; background: #a1ffcb; }
-.home-research__diagram--nodes { background: linear-gradient(30deg, transparent 44%, #90bea7 44.5%, #90bea7 45%, transparent 45.5%), linear-gradient(145deg, transparent 48%, #90bea7 48.5%, #90bea7 49%, transparent 49.5%); }
-.home-research__diagram--nodes i:nth-child(1) { left: 8%; top: 42%; }.home-research__diagram--nodes i:nth-child(2) { left: 41%; top: 10%; }.home-research__diagram--nodes i:nth-child(3) { left: 63%; top: 61%; }.home-research__diagram--nodes i:nth-child(4) { right: 6%; top: 20%; }
-.home-research__diagram--neuron { display: flex; align-items: center; justify-content: center; gap: 24px; }
-.home-research__diagram--neuron::before, .home-research__diagram--flow::before { content: ""; position: absolute; left: 10%; right: 10%; top: 50%; height: 1px; background: #8ab8a1; }
-.home-research__diagram--neuron i { position: relative; width: 30px; height: 30px; }.home-research__diagram--neuron i:nth-child(2) { width: 55px; height: 55px; background: #135c50; box-shadow: 0 0 0 9px rgba(161,255,203,.48); }
-.home-research__diagram--flow { display: flex; align-items: center; justify-content: space-around; }
-.home-research__diagram--flow i { position: relative; width: 29px; height: 29px; border-radius: 7px; }.home-research__diagram--flow i:nth-child(2) { transform: rotate(45deg); background: #135c50; }
+.home-research__diagram {
+  --research-ink: #135c50;
+  --research-mid: #6aa98a;
+  --research-pale: #d9eee1;
+  --research-wash: #e9f5ed;
+  --research-core-mark: #a1ffcb;
+  height: 116px;
+  margin: 1.1rem 0 1.25rem;
+  color: var(--research-ink);
+}
+.home-research__diagram svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.home-research__diagram .research-line { fill: none; stroke: var(--research-mid); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.home-research__diagram .research-line--soft { stroke: var(--research-mid); opacity: .35; }
+.home-research__diagram .research-halo { fill: var(--research-wash); stroke: var(--research-mid); stroke-width: 1; stroke-dasharray: 2 5; }
+.home-research__diagram .research-halo--inner { fill: none; stroke-dasharray: none; opacity: .6; }
+.home-research__diagram .research-node { fill: var(--research-pale); stroke: var(--research-ink); stroke-width: 1.5; }
+.home-research__diagram .research-node--pale { fill: var(--site-surface); }
+.home-research__diagram .research-node--solid { fill: var(--research-mid); }
+.home-research__diagram .research-core { fill: var(--research-ink); stroke: var(--research-pale); stroke-width: 3; transform-box: fill-box; transform-origin: center; transition: transform .35s ease; }
+.home-research__diagram .research-core__mark { fill: var(--research-core-mark); }
+.home-research__diagram .research-grid-dot { fill: var(--research-mid); opacity: .38; }
+.home-research__diagram .research-panel { fill: var(--research-wash); stroke: var(--research-mid); stroke-width: 1; }
+.home-research__diagram .research-panel--middle { fill: var(--research-pale); }
+.home-research__diagram .research-signal { fill: none; stroke: var(--research-ink); stroke-width: 2; stroke-linecap: round; }
+.home-research__diagram .research-bar { fill: var(--research-ink); }
+.home-research__diagram .research-bar--short { fill: var(--research-mid); }
+.home-research__card:hover .research-core { transform: scale(1.13); }
+.home-research__card:hover .research-line--soft { opacity: .7; }
+html[data-theme="dark"] .home-research__diagram {
+  --research-ink: #a1ffcb;
+  --research-mid: #75ba97;
+  --research-pale: #315943;
+  --research-wash: #253b2e;
+  --research-core-mark: #183b2e;
+}
 .home-research__card h3 { margin: 0 0 .65rem; font-size: 1.5rem; line-height: 1.15; }.home-research__card p { margin: 0; color: var(--global-text-color-light); line-height: 1.65; }
 .home-vision { margin: 0 calc((1120px - 100vw) / 2); padding: 6.5rem max(2rem, calc((100vw - 1120px) / 2)); background: #172d29; color: #f2f7f3; }
 .home-vision .home-section__index { color: #a1ffcb; }.home-vision h2 { max-width: 900px; margin: 0 0 1.4rem; font-size: clamp(2.4rem, 4.2vw, 4rem); font-weight: 400; line-height: 1.12; }.home-vision > p:last-child { max-width: 680px; margin: 0; color: #d8e8dc; font-size: 1.06rem; }
@@ -278,17 +304,8 @@ html[data-theme="dark"] .paper-hero, html[data-theme="dark"] .paper-content bloc
   transform: translateY(-5px);
 }
 
-.home-research__card:hover .home-research__diagram i {
-  animation: home-node-pulse 1.6s ease-in-out infinite;
-}
-
-.home-research__card:hover .home-research__diagram i:nth-child(2) { animation-delay: .18s; }
-.home-research__card:hover .home-research__diagram i:nth-child(3) { animation-delay: .36s; }
-.home-research__card:hover .home-research__diagram i:nth-child(4) { animation-delay: .54s; }
-
 @keyframes home-orbit { to { transform: rotate(360deg); } }
 @keyframes home-beacon { 50% { box-shadow: 0 0 0 8px rgba(68, 185, 135, .14); } }
-@keyframes home-node-pulse { 50% { box-shadow: 0 0 0 7px rgba(68, 185, 135, .16); } }
 @keyframes photo-develop-soft { from { opacity: .35; filter: grayscale(1) contrast(.7); } to { opacity: 1; filter: grayscale(0) contrast(1); } }
 
 @media (prefers-reduced-motion: reduce) {
@@ -296,10 +313,10 @@ html[data-theme="dark"] .paper-hero, html[data-theme="dark"] .paper-content bloc
   .home-hero__orbit::after,
   .home-hero__orbit i:nth-child(3),
   .home-hero__note-dot,
-  .home-research__card:hover .home-research__diagram i,
   .home-hero__photo-frame { animation: none !important; }
   .home-hero__photo-frame,
   .home-hero__note,
   .home-motion-ready .home-reveal { transition: none !important; }
+  .home-research__diagram .research-core { transition: none !important; }
   .home-motion-ready .home-reveal { opacity: 1 !important; translate: none !important; }
 }
