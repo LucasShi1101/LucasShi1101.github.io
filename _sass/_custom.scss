@@ -25,6 +25,10 @@
   --site-mint: #a1ffcb;
   --site-surface: #f3f5f2;
   --site-ink: #232323;
+  --ambient-mint: rgba(115, 190, 153, .19);
+  --ambient-blue: rgba(118, 171, 199, .13);
+  --ambient-sand: rgba(223, 188, 139, .1);
+  --ambient-dot: rgba(19, 92, 80, .18);
 }
 
 html[data-theme="dark"] {
@@ -38,10 +42,65 @@ html[data-theme="dark"] {
   --global-card-bg-color: #232d27;
   --site-surface: #202a24;
   --site-ink: #f2f6f3;
+  --ambient-mint: rgba(57, 129, 101, .2);
+  --ambient-blue: rgba(60, 102, 128, .17);
+  --ambient-sand: rgba(121, 99, 68, .11);
+  --ambient-dot: rgba(161, 255, 203, .11);
 }
 
 html { scroll-behavior: smooth; }
-body { font-family: "Rethink Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.65; }
+body { position: relative; isolation: isolate; font-family: "Rethink Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.65; }
+
+/* A slow, fixed research field sits behind every page without covering its content. */
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  inset: -6%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+body::before {
+  background:
+    radial-gradient(ellipse 43% 40% at 14% 18%, var(--ambient-mint), transparent 74%),
+    radial-gradient(ellipse 46% 43% at 85% 65%, var(--ambient-blue), transparent 75%),
+    radial-gradient(ellipse 38% 32% at 43% 97%, var(--ambient-sand), transparent 76%);
+  animation: ambient-breathe 28s ease-in-out infinite alternate;
+}
+
+body::after {
+  background-image: radial-gradient(circle, var(--ambient-dot) .65px, transparent 1px);
+  background-size: 30px 30px;
+  -webkit-mask-image: radial-gradient(ellipse 50% 65% at 78% 40%, #000 5%, transparent 100%);
+  mask-image: radial-gradient(ellipse 50% 65% at 78% 40%, #000 5%, transparent 100%);
+  opacity: .4;
+  animation: ambient-grid 36s ease-in-out infinite alternate;
+}
+
+@keyframes ambient-breathe {
+  from { transform: translate3d(-1.5%, 1%, 0) scale(1); }
+  to { transform: translate3d(1.5%, -1%, 0) scale(1.08); }
+}
+
+@keyframes ambient-grid {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-24px, 15px, 0); }
+}
+
+@media (max-width: 700px) {
+  body::after { opacity: .22; }
+}
+
+@media (prefers-reduced-motion: reduce), print {
+  body::before,
+  body::after { animation: none !important; }
+}
+
+@media print {
+  body::before,
+  body::after { display: none; }
+}
 h1, h2, h3, h4, h5, h6 { font-family: "Zilla Slab", Georgia, "Noto Serif CJK SC", serif; letter-spacing: -.025em; }
 a { text-underline-offset: 3px; }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--global-theme-color); outline-offset: 3px; }
