@@ -28,7 +28,7 @@
   --ambient-mint: rgba(61, 184, 131, .29);
   --ambient-blue: rgba(83, 155, 208, .23);
   --ambient-sand: rgba(237, 187, 116, .18);
-  --ambient-dot: rgba(19, 92, 80, .29);
+  --ambient-dot: rgba(19, 92, 80, .42);
 }
 
 html[data-theme="dark"] {
@@ -45,7 +45,7 @@ html[data-theme="dark"] {
   --ambient-mint: rgba(50, 154, 112, .3);
   --ambient-blue: rgba(69, 117, 158, .25);
   --ambient-sand: rgba(151, 113, 65, .16);
-  --ambient-dot: rgba(161, 255, 203, .2);
+  --ambient-dot: rgba(161, 255, 203, .36);
 }
 
 html { scroll-behavior: smooth; }
@@ -70,11 +70,11 @@ body::before {
 }
 
 body::after {
-  background-image: radial-gradient(circle, var(--ambient-dot) .8px, transparent 1.25px);
-  background-size: 28px 28px;
-  -webkit-mask-image: radial-gradient(ellipse 55% 72% at 78% 42%, #000 10%, transparent 100%);
-  mask-image: radial-gradient(ellipse 55% 72% at 78% 42%, #000 10%, transparent 100%);
-  opacity: .55;
+  background-image: radial-gradient(circle, var(--ambient-dot) 1.1px, transparent 1.5px);
+  background-size: 32px 32px;
+  -webkit-mask-image: radial-gradient(ellipse 90% 95% at 50% 45%, #000 15%, rgba(0, 0, 0, .7) 72%, transparent 100%);
+  mask-image: radial-gradient(ellipse 90% 95% at 50% 45%, #000 15%, rgba(0, 0, 0, .7) 72%, transparent 100%);
+  opacity: .7;
   animation: ambient-grid 20s linear infinite alternate;
 }
 
@@ -89,7 +89,7 @@ body::after {
 }
 
 @media (max-width: 700px) {
-  body::after { opacity: .35; }
+  body::after { opacity: .55; }
 }
 
 @media (prefers-reduced-motion: reduce), print {
