@@ -9,16 +9,15 @@ announcements:
   scrollable: false
   limit: 20
 ---
-<section class="home-intro" aria-labelledby="home-intro-title">
-  <div class="home-intro__heading"><p class="home-section__index">The work</p><h2 id="home-intro-title">Opening the black box of AI.</h2></div>
-  <div class="home-intro__body"><p>I am a researcher at the <a href="https://www.sydney.edu.au/">University of Sydney</a>, advised by <a href="https://www.sydney.edu.au/engineering/about/our-people/academic-staff/zhiyong-wang.html">Prof. Zhiyong Wang</a>. At the <a href="https://www.nextcenter.org/">NExT++ Center</a>, I work with <a href="https://www.comp.nus.edu.sg/cs/people/chuats/">Prof. Tat-Seng Chua</a> and Research Fellow <a href="https://muzishen.github.io/">Fei Shen</a>.</p><p>My work asks how large foundation models compose knowledge, represent concepts at the neuron level, and transform information across their layers.</p></div>
-</section>
-
 <section class="home-latent" aria-labelledby="home-latent-title">
   <div class="home-latent__copy">
     <p class="home-section__index">A research lens</p>
     <h2 id="home-latent-title">Latent <span>Knowledge</span></h2>
-    <p>What a model can do begins with what it carries inside. I study how hidden knowledge is represented, composed, and brought into behavior.</p>
+    <div class="home-latent__body">
+      <p>Latent knowledge is what a foundation model has learned beneath its visible answers: the concepts, relationships, and capabilities encoded within it. We study how that knowledge forms, how it is organized, and when a model draws on it to reason and act.</p>
+      <p>At the NExT++ Research Centre, our Latent Knowledge Group studies these questions across language, vision, and multimodal models. Led by Research Fellow Fei Shen and advised by Prof. Tat-Seng Chua, the team investigates internal mechanisms, reliability, safety, and ways to bring hidden capabilities into use. I also conduct research at the University of Sydney under Prof. Zhiyong Wang.</p>
+      <a class="home-latent__link" href="https://latentknowledge.org/" target="_blank" rel="noopener noreferrer">Explore the Latent Knowledge Group <span aria-hidden="true">↗</span></a>
+    </div>
   </div>
   <div class="home-latent__art">
     <span class="home-latent__orbit home-latent__orbit--one" aria-hidden="true"></span>
