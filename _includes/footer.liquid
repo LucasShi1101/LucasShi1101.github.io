@@ -18,6 +18,51 @@
     </div>
   </footer>
 {% else %}
+  <section class="visitor-world container" aria-labelledby="visitor-world-title">
+    <div class="visitor-world__intro">
+      <p class="visitor-world__eyebrow">Around the world</p>
+      <h2 id="visitor-world-title">Ideas travel<br /><em>further together.</em></h2>
+      <p>Thank you for reading from near and far. This map highlights places where visitors have found this site.</p>
+      <a class="visitor-world__link" href="https://mapmyvisitors.com/web/1c2l8" target="_blank" rel="noopener noreferrer">Explore live visitor statistics <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="visitor-world__visual">
+      <div class="visitor-world__visual-head">
+        <span>Visitor regions</span>
+        <span class="visitor-world__legend"><i aria-hidden="true"></i> Recorded visits</span>
+      </div>
+      <div class="visitor-world__map" role="img" aria-label="World map highlighting visitor regions, including Australia, the United States, Singapore, Hong Kong, Japan, and Europe. Snapshot from November 2026.">
+        <img src="{{ '/assets/img/visitor-world-dots.svg' | relative_url }}" alt="" width="1000" height="385" loading="lazy" />
+        <span class="visitor-world__marker visitor-world__marker--home" style="--x:91.9%;--y:77.5%" title="Australia"></span>
+        <span class="visitor-world__marker" style="--x:28.6%;--y:25.7%" title="United States"></span>
+        <span class="visitor-world__marker" style="--x:78.9%;--y:52.4%" title="Singapore"></span>
+        <span class="visitor-world__marker" style="--x:81.7%;--y:39.6%" title="Hong Kong"></span>
+        <span class="visitor-world__marker" style="--x:85.6%;--y:25.9%" title="South Korea"></span>
+        <span class="visitor-world__marker" style="--x:88.9%;--y:27.0%" title="Japan"></span>
+        <span class="visitor-world__marker" style="--x:47.8%;--y:15.0%" title="Ireland"></span>
+        <span class="visitor-world__marker" style="--x:49.7%;--y:15.9%" title="United Kingdom"></span>
+        <span class="visitor-world__marker" style="--x:98.3%;--y:81.2%" title="New Zealand"></span>
+        <span class="visitor-world__marker" style="--x:83.6%;--y:45.2%" title="Philippines"></span>
+        <span class="visitor-world__marker" style="--x:28.0%;--y:21.8%" title="Canada"></span>
+        <span class="visitor-world__marker" style="--x:83.6%;--y:38.0%" title="Taiwan"></span>
+        <span class="visitor-world__marker" style="--x:56.7%;--y:13.8%" title="Lithuania"></span>
+        <span class="visitor-world__marker" style="--x:78.1%;--y:51.2%" title="Malaysia"></span>
+        <span class="visitor-world__marker" style="--x:52.3%;--y:19.2%" title="Switzerland"></span>
+        <span class="visitor-world__marker" style="--x:53.6%;--y:15.9%" title="Germany"></span>
+        <span class="visitor-world__marker" style="--x:79.7%;--y:57.6%" title="Indonesia"></span>
+        <span class="visitor-world__marker" style="--x:50.6%;--y:20.5%" title="France"></span>
+      </div>
+      <div class="visitor-world__visual-foot">
+        <span>Visitor locations · November 2026 snapshot</span>
+        <details>
+          <summary>Live map</summary>
+          <a href="https://mapmyvisitors.com/web/1c2l8" target="_blank" rel="noopener noreferrer" aria-label="Open live visitor map">
+            <img src="https://mapmyvisitors.com/map.png?d=GyBBQbYvWOjNM-934UOTf3mCjii7x2NHm13RAUFtLYs&amp;cl=ffffff" alt="Live MapMyVisitors visitor map" width="250" />
+          </a>
+        </details>
+      </div>
+    </div>
+  </section>
   <footer class="sticky-bottom mt-5" role="contentinfo">
     {% if site.newsletter.enabled %}
       {% include newsletter.liquid %}
@@ -28,14 +73,3 @@
     </div>
   </footer>
 {% endif %}
-
-{% if site.footer_fixed %}
-  {% endif %}
-
-<div class="container-fluid text-center" style="margin-top: 20px; padding-bottom: 20px;">
-  <a href="https://mapmyvisitors.com/web/1c2l8" title="Visit tracker">
-    <img src="https://mapmyvisitors.com/map.png?d=GyBBQbYvWOjNM-934UOTf3mCjii7x2NHm13RAUFtLYs&cl=ffffff" 
-         style="max-width: 250px; height: auto; border-radius: 8px; opacity: 0.9;" 
-         alt="Visitor Map" />
-  </a>
-</div>
