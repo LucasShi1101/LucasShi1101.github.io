@@ -15,7 +15,7 @@ announcements:
     <h2 id="home-latent-title">Latent <span>Knowledge</span></h2>
     <div class="home-latent__body">
       <p>Latent knowledge is the concepts, relationships, and capabilities a foundation model learns beneath its visible answers. We study how this knowledge forms, how it is organized, and when models use it to reason and act.</p>
-      <p>At the NExT++ Research Centre, our Latent Knowledge Group investigates model mechanisms, reliability, safety, and ways to elicit hidden capabilities across language, vision, and multimodal systems. Research Fellow Fei Shen leads the group under Prof. Tat-Seng Chua. I also work with Prof. Zhiyong Wang at the University of Sydney.</p>
+      <p>At the <a href="https://www.nextcenter.org/">NExT++ Research Centre</a>, our Latent Knowledge Group investigates model mechanisms, reliability, safety, and ways to elicit hidden capabilities across language, vision, and multimodal systems. <a href="https://muzishen.github.io/">Research Fellow Fei Shen</a> leads the group under <a href="https://www.comp.nus.edu.sg/cs/people/chuats/">Prof. Tat-Seng Chua</a>. I also work with <a href="https://profiles.sydney.edu.au/zhiyong.wang">Prof. Zhiyong Wang</a> at the University of Sydney.</p>
       <a class="home-latent__link" href="https://latentknowledge.org/" target="_blank" rel="noopener noreferrer">Explore the Latent Knowledge Group <span aria-hidden="true">↗</span></a>
     </div>
   </div>

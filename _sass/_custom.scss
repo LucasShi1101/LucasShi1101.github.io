@@ -161,7 +161,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--global-theme-co
 .home-intro h2, .home-section h2, .home-research h2 { max-width: 660px; margin: 0; font-size: clamp(2.4rem, 4.3vw, 4rem); font-weight: 400; line-height: 1.08; }
 .home-intro__body { max-width: 600px; color: var(--global-text-color-light); font-size: 1.07rem; line-height: 1.8; }
 .home-intro__body p { margin: 0 0 1.3rem; }
-.home-intro__body a {
+.home-latent__body p a {
   color: #08745b;
   font-weight: 700;
   text-decoration: underline;
@@ -171,13 +171,13 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--global-theme-co
   background: linear-gradient(transparent 68%, rgba(161, 255, 203, .45) 68%);
   transition: color .2s ease, text-decoration-color .2s ease;
 }
-.home-intro__body a:hover { color: #064e3d; text-decoration-color: currentColor; }
-html[data-theme="dark"] .home-intro__body a {
+.home-latent__body p a:hover { color: #064e3d; text-decoration-color: currentColor; }
+html[data-theme="dark"] .home-latent__body p a {
   color: #a1ffcb;
   text-decoration-color: #70ce9a;
   background: linear-gradient(transparent 68%, rgba(92, 168, 118, .35) 68%);
 }
-html[data-theme="dark"] .home-intro__body a:hover { color: #d9ffe8; }
+html[data-theme="dark"] .home-latent__body p a:hover { color: #d9ffe8; }
 .home-latent {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(320px, .9fr);
