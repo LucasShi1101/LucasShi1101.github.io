@@ -185,7 +185,7 @@ if (canvas && art) {
         materials.push({ fill, stroke, points, silhouette: silhouetteMaterial });
       });
       sculpture.add(model);
-      sculpture.rotation.y = 0;
+      sculpture.rotation.y = Math.PI;
       loaded = true;
       updatePalette();
       resize();
