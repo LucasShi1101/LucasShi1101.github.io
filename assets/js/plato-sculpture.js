@@ -1,9 +1,12 @@
 import {
-  AmbientLight,
-  Color,
-  DirectionalLight,
+  BackSide,
+  EdgesGeometry,
+  Float32BufferAttribute,
   Group,
-  MeshStandardMaterial,
+  LineBasicMaterial,
+  LineSegments,
+  Mesh,
+  MeshBasicMaterial,
   OrthographicCamera,
   Scene,
   SRGBColorSpace,
@@ -29,16 +32,18 @@ if (canvas && art) {
     camera.position.set(0, 8, 240);
     camera.lookAt(0, 0, 0);
 
-    scene.add(new AmbientLight(0xffffff, .65));
-    const key = new DirectionalLight(0xffffff, 1.65);
-    key.position.set(-70, 90, 120);
-    scene.add(key);
-    const fill = new DirectionalLight(0x8bdcbd, .55);
-    fill.position.set(90, 10, -60);
-    scene.add(fill);
-
     const sculpture = new Group();
     scene.add(sculpture);
+    const materials = [];
+    const updatePalette = () => {
+      const dark = document.documentElement.dataset.theme === 'dark';
+      materials.forEach(({ fill, stroke, silhouette }) => {
+        fill.color.set(dark ? '#142b25' : '#f1f8f3');
+        stroke.color.set(dark ? '#a1ffcb' : '#135c50');
+        silhouette.color.copy(stroke.color);
+      });
+      if (loaded) renderer.render(scene, camera);
+    };
     const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
     let visible = false;
     let loaded = false;
@@ -79,6 +84,7 @@ if (canvas && art) {
     motion.addEventListener('change', () => {
       if (visible && loaded && !frame) frame = requestAnimationFrame(tick);
     });
+    new MutationObserver(updatePalette).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
 
     const draco = new DRACOLoader();
     draco.setDecoderPath(new URL('./third-party/three/', import.meta.url).href);
@@ -89,13 +95,40 @@ if (canvas && art) {
       const bounds = new Box3().setFromObject(model);
       const center = bounds.getCenter(new Vector3());
       model.position.sub(center);
-      model.traverse((child) => {
-        if (!child.isMesh) return;
-        child.material = new MeshStandardMaterial({ color: new Color('#b1c9b8'), roughness: .98, metalness: 0 });
+      const meshes = [];
+      model.traverse((child) => { if (child.isMesh) meshes.push(child); });
+      meshes.forEach((child) => {
+        const fill = new MeshBasicMaterial({ polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 1 });
+        const stroke = new LineBasicMaterial({ transparent: true, opacity: .72, depthWrite: false });
+        const silhouetteMaterial = new MeshBasicMaterial({ side: BackSide });
+        child.material = fill;
+
+        const edgeGeometry = new EdgesGeometry(child.geometry, 15);
+        const positions = edgeGeometry.getAttribute('position');
+        const lines = [];
+        for (let index = 0; index < positions.count; index += 2) {
+          // The scanned pedestal has noisy facets that distract from the face.
+          if (Math.max(positions.getY(index), positions.getY(index + 1)) < 23) continue;
+          for (let point = index; point < index + 2; point += 1) {
+            lines.push(positions.getX(point), positions.getY(point), positions.getZ(point));
+          }
+        }
+        edgeGeometry.setAttribute('position', new Float32BufferAttribute(lines, 3));
+        child.add(new LineSegments(edgeGeometry, stroke));
+
+        child.geometry.computeBoundingBox();
+        const localCenter = child.geometry.boundingBox.getCenter(new Vector3());
+        const scale = 1.015;
+        const silhouette = new Mesh(child.geometry, silhouetteMaterial);
+        silhouette.position.copy(localCenter).multiplyScalar(1 - scale);
+        silhouette.scale.setScalar(scale);
+        child.add(silhouette);
+        materials.push({ fill, stroke, silhouette: silhouetteMaterial });
       });
       sculpture.add(model);
       sculpture.rotation.y = 0;
       loaded = true;
+      updatePalette();
       resize();
       art.querySelector('.home-latent__poster').style.opacity = '0';
       draco.dispose();

@@ -23,7 +23,7 @@ announcements:
     <span class="home-latent__orbit home-latent__orbit--one" aria-hidden="true"></span>
     <span class="home-latent__orbit home-latent__orbit--two" aria-hidden="true"></span>
     <img class="home-latent__poster" src="{{ '/assets/models/plato-poster.png' | relative_url }}" alt="A marble portrait sculpture of Plato" loading="lazy" width="512" height="512">
-    <canvas class="home-latent__canvas" width="480" height="480" aria-label="Rotating three-dimensional scan of a Plato sculpture"></canvas>
+    <canvas class="home-latent__canvas" width="480" height="480" role="img" aria-label="Rotating line drawing of a Plato sculpture"></canvas>
     <span class="home-latent__art-label">PLATO · THE FORMS</span>
     <a class="home-latent__credit" href="https://zenodo.org/records/21692807" target="_blank" rel="noopener noreferrer">3D scan: Scan-the-World · CC BY-NC-SA 4.0 ↗</a>
   </div>
