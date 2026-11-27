@@ -1,6 +1,7 @@
 import {
   BackSide,
-  EdgesGeometry,
+  BufferGeometry,
+  WireframeGeometry,
   Float32BufferAttribute,
   Group,
   LineBasicMaterial,
@@ -8,6 +9,8 @@ import {
   Mesh,
   MeshBasicMaterial,
   OrthographicCamera,
+  Points,
+  PointsMaterial,
   Scene,
   SRGBColorSpace,
   WebGLRenderer,
@@ -37,9 +40,10 @@ if (canvas && art) {
     const materials = [];
     const updatePalette = () => {
       const dark = document.documentElement.dataset.theme === 'dark';
-      materials.forEach(({ fill, stroke, silhouette }) => {
-        fill.color.set(dark ? '#142b25' : '#f1f8f3');
-        stroke.color.set(dark ? '#a1ffcb' : '#135c50');
+      materials.forEach(({ fill, stroke, points, silhouette }) => {
+        fill.color.set(dark ? '#17372d' : '#e0eee5');
+        stroke.color.set(dark ? '#a1ffcb' : '#176a58');
+        points.color.set(dark ? '#d2ffe3' : '#0c5d4b');
         silhouette.color.copy(stroke.color);
       });
       if (loaded) renderer.render(scene, camera);
@@ -99,22 +103,39 @@ if (canvas && art) {
       model.traverse((child) => { if (child.isMesh) meshes.push(child); });
       meshes.forEach((child) => {
         const fill = new MeshBasicMaterial({ polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 1 });
-        const stroke = new LineBasicMaterial({ transparent: true, opacity: .72, depthWrite: false });
+        const stroke = new LineBasicMaterial({ transparent: true, opacity: .67, depthWrite: false });
         const silhouetteMaterial = new MeshBasicMaterial({ side: BackSide });
         child.material = fill;
 
-        const edgeGeometry = new EdgesGeometry(child.geometry, 15);
-        const positions = edgeGeometry.getAttribute('position');
+        // Show the scan's actual triangular surface, with a density cap for smooth rendering.
+        const wireGeometry = new WireframeGeometry(child.geometry);
+        const positions = wireGeometry.getAttribute('position');
         const lines = [];
-        for (let index = 0; index < positions.count; index += 2) {
+        const segmentCount = positions.count / 2;
+        const stride = Math.max(1, Math.ceil(segmentCount / 8500));
+        for (let index = 0; index < positions.count; index += stride * 2) {
           // The scanned pedestal has noisy facets that distract from the face.
           if (Math.max(positions.getY(index), positions.getY(index + 1)) < 23) continue;
           for (let point = index; point < index + 2; point += 1) {
             lines.push(positions.getX(point), positions.getY(point), positions.getZ(point));
           }
         }
-        edgeGeometry.setAttribute('position', new Float32BufferAttribute(lines, 3));
-        child.add(new LineSegments(edgeGeometry, stroke));
+        wireGeometry.dispose();
+        const meshLines = new BufferGeometry();
+        meshLines.setAttribute('position', new Float32BufferAttribute(lines, 3));
+        child.add(new LineSegments(meshLines, stroke));
+
+        const vertices = child.geometry.getAttribute('position');
+        const pointPositions = [];
+        const pointStride = Math.max(1, Math.ceil(vertices.count / 2400));
+        for (let index = 0; index < vertices.count; index += pointStride) {
+          if (vertices.getY(index) < 23) continue;
+          pointPositions.push(vertices.getX(index), vertices.getY(index), vertices.getZ(index));
+        }
+        const pointGeometry = new BufferGeometry();
+        pointGeometry.setAttribute('position', new Float32BufferAttribute(pointPositions, 3));
+        const points = new PointsMaterial({ size: 2.3, sizeAttenuation: false, transparent: true, opacity: .9, depthWrite: false });
+        child.add(new Points(pointGeometry, points));
 
         child.geometry.computeBoundingBox();
         const localCenter = child.geometry.boundingBox.getCenter(new Vector3());
@@ -123,7 +144,7 @@ if (canvas && art) {
         silhouette.position.copy(localCenter).multiplyScalar(1 - scale);
         silhouette.scale.setScalar(scale);
         child.add(silhouette);
-        materials.push({ fill, stroke, silhouette: silhouetteMaterial });
+        materials.push({ fill, stroke, points, silhouette: silhouetteMaterial });
       });
       sculpture.add(model);
       sculpture.rotation.y = 0;

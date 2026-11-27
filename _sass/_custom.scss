@@ -439,6 +439,7 @@ html[data-theme="dark"] .paper-hero, html[data-theme="dark"] .paper-content bloc
   text-decoration: none !important;
 }
 .visitor-world__link:hover { color: #fff !important; border-bottom-color: #fff; }
+.visitor-world__link span { color: inherit; }
 .visitor-world__link:focus-visible,
 .visitor-world__visual-foot summary:focus-visible {
   outline: 2px solid #f9b078;
@@ -464,6 +465,7 @@ html[data-theme="dark"] .paper-hero, html[data-theme="dark"] .paper-content bloc
   font-size: .88rem;
   font-weight: 650;
 }
+.visitor-world__visual-head > span:first-child { color: #f1f9f3; }
 .visitor-world__legend {
   display: inline-flex;
   gap: .4rem;
@@ -515,6 +517,7 @@ html[data-theme="dark"] .paper-hero, html[data-theme="dark"] .paper-content bloc
   font-size: .74rem;
   line-height: 1.5;
 }
+.visitor-world__visual-foot > span { color: #afc9bb; }
 .visitor-world__visual-foot details { position: relative; }
 .visitor-world__visual-foot summary {
   color: #b8eecb;
