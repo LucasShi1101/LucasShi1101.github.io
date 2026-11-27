@@ -1,7 +1,6 @@
 import {
   BackSide,
   BufferGeometry,
-  WireframeGeometry,
   Float32BufferAttribute,
   Group,
   LineBasicMaterial,
@@ -107,31 +106,70 @@ if (canvas && art) {
         const silhouetteMaterial = new MeshBasicMaterial({ side: BackSide });
         child.material = fill;
 
-        // Show the scan's actual triangular surface, with a density cap for smooth rendering.
-        const wireGeometry = new WireframeGeometry(child.geometry);
-        const positions = wireGeometry.getAttribute('position');
-        const lines = [];
-        const segmentCount = positions.count / 2;
-        const stride = Math.max(1, Math.ceil(segmentCount / 8500));
-        for (let index = 0; index < positions.count; index += stride * 2) {
-          // The scanned pedestal has noisy facets that distract from the face.
-          if (Math.max(positions.getY(index), positions.getY(index + 1)) < 23) continue;
-          for (let point = index; point < index + 2; point += 1) {
-            lines.push(positions.getX(point), positions.getY(point), positions.getZ(point));
+        // Merge nearby scan vertices into a legible point-line mesh while preserving its topology.
+        const vertices = child.geometry.getAttribute('position');
+        const vertexClusters = new Uint32Array(vertices.count);
+        const clusters = [];
+        const clusterLookup = new Map();
+        const cellSize = 5;
+        for (let index = 0; index < vertices.count; index += 1) {
+          const x = vertices.getX(index);
+          const y = vertices.getY(index);
+          const z = vertices.getZ(index);
+          const key = [x, y, z].map((value) => Math.round(value / cellSize)).join(',');
+          let clusterIndex = clusterLookup.get(key);
+          if (clusterIndex === undefined) {
+            clusterIndex = clusters.length;
+            clusterLookup.set(key, clusterIndex);
+            clusters.push({ x: 0, y: 0, z: 0, count: 0 });
           }
+          vertexClusters[index] = clusterIndex;
+          const cluster = clusters[clusterIndex];
+          cluster.x += x;
+          cluster.y += y;
+          cluster.z += z;
+          cluster.count += 1;
         }
-        wireGeometry.dispose();
+        clusters.forEach((cluster) => {
+          cluster.x /= cluster.count;
+          cluster.y /= cluster.count;
+          cluster.z /= cluster.count;
+        });
+
+        const indices = child.geometry.getIndex();
+        const triangleCount = (indices ? indices.count : vertices.count) / 3;
+        const edgeKeys = new Set();
+        const edges = [];
+        const addEdge = (a, b) => {
+          if (a === b) return;
+          const key = a < b ? `${a}:${b}` : `${b}:${a}`;
+          if (edgeKeys.has(key)) return;
+          edgeKeys.add(key);
+          edges.push(a, b);
+        };
+        for (let triangle = 0; triangle < triangleCount; triangle += 1) {
+          const base = triangle * 3;
+          const a = vertexClusters[indices ? indices.getX(base) : base];
+          const b = vertexClusters[indices ? indices.getX(base + 1) : base + 1];
+          const c = vertexClusters[indices ? indices.getX(base + 2) : base + 2];
+          if (Math.max(clusters[a].y, clusters[b].y, clusters[c].y) < 23) continue;
+          addEdge(a, b);
+          addEdge(b, c);
+          addEdge(c, a);
+        }
+        const linePositions = [];
+        edges.forEach((clusterIndex) => {
+          const point = clusters[clusterIndex];
+          linePositions.push(point.x, point.y, point.z);
+        });
         const meshLines = new BufferGeometry();
-        meshLines.setAttribute('position', new Float32BufferAttribute(lines, 3));
+        meshLines.setAttribute('position', new Float32BufferAttribute(linePositions, 3));
         child.add(new LineSegments(meshLines, stroke));
 
-        const vertices = child.geometry.getAttribute('position');
         const pointPositions = [];
-        const pointStride = Math.max(1, Math.ceil(vertices.count / 2400));
-        for (let index = 0; index < vertices.count; index += pointStride) {
-          if (vertices.getY(index) < 23) continue;
-          pointPositions.push(vertices.getX(index), vertices.getY(index), vertices.getZ(index));
-        }
+        clusters.forEach((point) => {
+          if (point.y >= 23) pointPositions.push(point.x, point.y, point.z);
+        });
         const pointGeometry = new BufferGeometry();
         pointGeometry.setAttribute('position', new Float32BufferAttribute(pointPositions, 3));
         const points = new PointsMaterial({ size: 2.3, sizeAttenuation: false, transparent: true, opacity: .9, depthWrite: false });
