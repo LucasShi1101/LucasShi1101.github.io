@@ -14,6 +14,20 @@ announcements:
   <div class="home-intro__body"><p>I am a researcher at the <a href="https://www.sydney.edu.au/">University of Sydney</a>, advised by <a href="https://www.sydney.edu.au/engineering/about/our-people/academic-staff/zhiyong-wang.html">Prof. Zhiyong Wang</a>. At the <a href="https://www.nextcenter.org/">NExT++ Center</a>, I work with <a href="https://www.comp.nus.edu.sg/cs/people/chuats/">Prof. Tat-Seng Chua</a> and Research Fellow <a href="https://muzishen.github.io/">Fei Shen</a>.</p><p>My work asks how large foundation models compose knowledge, represent concepts at the neuron level, and transform information across their layers.</p></div>
 </section>
 
+<section class="home-latent" aria-labelledby="home-latent-title">
+  <div class="home-latent__copy">
+    <p class="home-section__index">A research lens</p>
+    <h2 id="home-latent-title">Latent <span>Knowledge</span></h2>
+    <p>What a model can do begins with what it carries inside. I study how hidden knowledge is represented, composed, and brought into behavior.</p>
+  </div>
+  <div class="home-latent__art" aria-hidden="true">
+    <span class="home-latent__orbit home-latent__orbit--one"></span>
+    <span class="home-latent__orbit home-latent__orbit--two"></span>
+    <canvas class="home-latent__canvas" width="480" height="480"></canvas>
+    <span class="home-latent__art-label">PLATO · THE FORMS</span>
+  </div>
+</section>
+
 <section class="home-research" aria-labelledby="home-research-title">
   <div class="home-section__heading"><div><p class="home-section__index">Research focus</p><h2 id="home-research-title">Three questions guide my work.</h2></div></div>
   <div class="home-research__grid">
