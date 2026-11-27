@@ -2,10 +2,7 @@ import {
   AmbientLight,
   Color,
   DirectionalLight,
-  EdgesGeometry,
   Group,
-  LineBasicMaterial,
-  LineSegments,
   MeshStandardMaterial,
   OrthographicCamera,
   Scene,
@@ -95,11 +92,6 @@ if (canvas && art) {
       model.traverse((child) => {
         if (!child.isMesh) return;
         child.material = new MeshStandardMaterial({ color: new Color('#b1c9b8'), roughness: .98, metalness: 0 });
-        const contours = new LineSegments(
-          new EdgesGeometry(child.geometry, 48),
-          new LineBasicMaterial({ color: '#206b5d', transparent: true, opacity: .18, depthWrite: false }),
-        );
-        child.add(contours);
       });
       sculpture.add(model);
       sculpture.rotation.y = 0;
